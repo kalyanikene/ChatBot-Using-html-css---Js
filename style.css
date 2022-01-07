@@ -92,3 +92,45 @@ body{
     background: #090e11;
     color: #fff;
 }
+
+@media (max-width:500px) and (min-width:300px)
+{
+    .box{
+      display: block;
+    }
+}
+
+
+@media (min-width:411px) and (max-width:731px)
+{
+    .box{
+      display: block;
+      width:80%;
+    }
+
+    .top h1{
+        padding-top: 9px;
+    }
+}
+
+@media (max-width:500px) and (min-width:300px)
+{
+    img{
+      display: block;
+    }
+}
+
+@media (max-width: 414px){
+    .box{
+        display: block;
+        width:80%;
+      }
+}
+
+
+@media (max-width:694px) and (min-width:431px){
+    .box{
+        display: block;
+        width:80%;
+      }
+}

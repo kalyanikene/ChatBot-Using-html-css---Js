@@ -13,4 +13,14 @@ function talk(){
     }else{
       document.getElementById('chatLog').innerHTML = "For more details please visit our page w3school.com <br>";
     }
+   
   }
+
+  const inputField = document.getElementById("userBox")
+    inputField.addEventListener("keydown", function(e) {
+        if (e.code === "Enter") {
+            let input = inputField.value;
+            inputField.value = "";
+            output(input);
+    }
+  });
