@@ -134,3 +134,28 @@ body{
         width:80%;
       }
 }
+
+@media (max-width:785px) and (min-width:320px)
+{
+    .box{
+      display: block;
+    }
+    .mid .chat h2{
+        font-size: 15px;
+    }
+
+    .top h1{
+        font-size: 15px;
+        
+    
+    }
+
+    .mid .chat p{
+        font-size: 15px;
+        padding: 80px 40px;
+    }
+
+    .input input {
+        font-size: 15px;
+    }
+}
