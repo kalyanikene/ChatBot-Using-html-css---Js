@@ -17,7 +17,7 @@ function talk(){
   }
 
   const inputField = document.getElementById("userBox")
-    inputField.addEventListener("keydown", function(e) {
+    inputField.addEventListener("keydown","onkeyup", function(e) {
         if (e.code === "Enter" ) {
             let input = inputField.value;
             inputField.value = "";
